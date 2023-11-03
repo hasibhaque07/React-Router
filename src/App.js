@@ -31,7 +31,7 @@ const App = () => {
                 <Route path = '*' element = {<Error />}/>
                 <Route path = '/user/:userid' element = {<User />}/>
                 <Route path = '/user' element = {<User />}/> 
-                <Route path = '/userH' element = {<UserH />}/> 
+                 
             </Routes>
         </BrowserRouter>
     </div>
